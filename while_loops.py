@@ -32,7 +32,7 @@ def main():
     except ValueError:
         print("{0} is not a valid input".format(positive_string))
     finally:
-        print("\n.Done")
+        print("\nDone.")
 
 
 if __name__ == "__main__":
