@@ -3,6 +3,7 @@
 # Created on: Oct 2022
 # This program uses while loops
 
+
 def main():
 
     loop_counter = 0
@@ -21,8 +22,11 @@ def main():
             while loop_counter < positive_integer:
                 loop_counter = loop_counter + 1
                 add_int = add_int + loop_counter
-            print("The sum of all positive numbers from 1 to {0} is {1}.".format
-        (positive_string, add_int))
+            print(
+                "The sum of all positive numbers from 1 to {0} is {1}.".format(
+                    positive_integer, add_int
+                )
+            )
         else:
             print("{0} is not a positive integer".format(positive_string))
     except ValueError:
